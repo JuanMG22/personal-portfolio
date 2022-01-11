@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     z-index: 99;
     bottom: 3%;
-    left: 50%;
+    left: 49%;
     font-size: 40px;
     animation: bajar-subir 1s ease infinite;
 }

@@ -3,7 +3,7 @@ const seccionesPagina = new fullpage('#fullpage', {
 	//   :::::: Opciones Basicas
 	// ──────────────────────────────────────────────────
 	autoScrolling: true, // Se activa el scroll.
-	fitToSection: false, // Acomoda el scroll automaticamente para que la seccion se muestre en pantalla.
+	fitToSection: true, // Acomoda el scroll automaticamente para que la seccion se muestre en pantalla.
 	fitToSectionDelay: 300, // Delay antes de acomodar la seccion automaticamente.
 	easing: 'easeInOutCubic', // Funcion de tiempo de la animacion.
 	scrollingSpeed: 700, // Velocidad del scroll. Valores: en milisegundos.
@@ -15,8 +15,8 @@ const seccionesPagina = new fullpage('#fullpage', {
 	// ──────────────────────────────────────────────────
 	navigation: true, // Muesta la barra de navegación.
 	menu: '#menu', // Menu de navegación.
-	anchors: ['inicio', 'productos', 'contacto'], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
-	navigationTooltips: ['Inicio', 'Productos', 'Contacto'], // Tooltips que mostrara por cada boton.
+	anchors: ['inicio', 'about', 'productos', 'contacto'], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
+	navigationTooltips: ['Inicio', 'Sobre mi', 'Proyectos', 'Contacto'], // Tooltips que mostrara por cada boton.
 	showActiveTooltip: false, // Mostrar tooltip activa.
 	// ──────────────────────────────────────────────────
 	//   :::::: Secciones
